@@ -48,19 +48,19 @@ public class App {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "votexa.5566248.cc.cd");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiN2ZiY2U5ZDc0OGM0MjU5OGZiZjkyYTM5ZjY5MDZkYmIiLCJ0IjoiZWM4Y2E2MjAtOTc2My00NjQzLWE2MWItMWJhYzU5MTNhNzhmIiwicyI6IllqazBOamhtWldJdFkyRmtaQzAwTjJGbUxXRXpNVEl0WW1WaU56VmlPVEkzT1RCbCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String TUIC_PORT = env("TUIC_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "");
-    private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
+    private static final String TUIC_PORT = env("TUIC_PORT", "38919");
+    private static final String HY2_PORT = env("HY2_PORT", "33959");
+    private static final String ANYTLS_PORT = env("ANYTLS_PORT", "33959");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
-    private static final String CFIP = env("CFIP", "cf.877774.xyz");
+    private static final String CFIP = env("CFIP", "www.shopify.com");
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final String NAME = env("NAME", "");
-    private static final String CHAT_ID = env("CHAT_ID", "");
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String CHAT_ID = env("CHAT_ID", "1635755522");
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "7043713545:AAE4Exp5bCGbKgfTQXS0aWX9idVyFtW7V7U");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
 
     private static final Path ROOT = Path.of("").toAbsolutePath();
